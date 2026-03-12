@@ -1,0 +1,34 @@
+# Secrets and credentials
+.env
+*.pem
+*.p8
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Java / Spark
+*.jar
+*.class
+derby.log
+metastore_db/
+spark-warehouse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
