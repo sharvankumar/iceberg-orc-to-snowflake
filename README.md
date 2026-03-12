@@ -79,3 +79,6 @@ s3://skumar-iceberg-lakehouse/iceberg/orc-demo/
 - [Apache Iceberg File Formats](https://iceberg.apache.org/docs/latest/configuration/#write-properties)
 - [Snowflake COPY INTO](https://docs.snowflake.com/en/sql-reference/sql/copy-into-table)
 - [Snowflake ORC File Format](https://docs.snowflake.com/en/sql-reference/sql/create-file-format#type-orc)
+- orc-tools meta /Users/skumar/Documents/coco/orc_sample_data/orders.orc
+- orc-tools data /Users/skumar/Documents/coco/orc_sample_data/orders.orc | head -20
+- orc-tools scan /Users/skumar/Documents/coco/orc_sample_data/orders.orc
